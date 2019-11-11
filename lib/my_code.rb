@@ -5,7 +5,7 @@ def map(array)
     new << yield(array[counter])
     counter += 1
   end
-  return new
+  new
 end
 
 map do |n|
