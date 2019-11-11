@@ -1,1 +1,2 @@
-map([1, 2, 3, -9]){|n| * -1} 
+def map(array)
+  array.map { |n| 
