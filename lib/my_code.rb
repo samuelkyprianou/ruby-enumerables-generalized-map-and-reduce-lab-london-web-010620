@@ -1,5 +1,5 @@
 def map(a)
-  array.map { |n| n * -1 }
+  yield
 end
 
 { |n| n * -1 }
