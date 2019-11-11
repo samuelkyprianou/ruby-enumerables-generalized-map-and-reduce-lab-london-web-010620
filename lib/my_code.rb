@@ -1,5 +1,5 @@
-def map(a)
-  yield
+def map
+  yield(a)
 end
 
 map(a) do |n| 
