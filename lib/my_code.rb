@@ -7,3 +7,6 @@ def map(array)
   end
 end
 
+map do |n|
+  n * -1
+end
