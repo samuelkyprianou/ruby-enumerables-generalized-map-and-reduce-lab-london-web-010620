@@ -2,4 +2,4 @@ def map(a)
   yield
 end
 
-{ |n| n * -1 }
+map{ |n| n * -1 }
