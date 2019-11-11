@@ -9,7 +9,7 @@ def map(array)
 end
 
 def map(array, starting_point=0)
-  value = tota;
+  value = total
     counter = 0
     while counter < array.size 
     new << yield(array[counter])
