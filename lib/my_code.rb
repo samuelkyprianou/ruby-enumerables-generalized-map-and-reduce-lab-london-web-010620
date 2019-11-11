@@ -2,6 +2,6 @@ def map(a)
   yield
 end
 
-map(source_array) do |n| 
+map(a) do |n| 
   n * -1
 end
