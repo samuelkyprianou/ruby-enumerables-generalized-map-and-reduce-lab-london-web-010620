@@ -10,6 +10,8 @@ end
 
 def reduce(array, starting_point=nil)
     if starting_point
+      value = starting_point
+      
     counter = 0
     while counter < array.size 
    value = yield(value, array[counter])
