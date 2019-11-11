@@ -13,6 +13,7 @@ def reduce(array, starting_point=nil)
       value = starting_point
     counter = 0
   else 
+    starting_point = 
     while counter < array.size 
    value = yield(value, array[counter])
     counter += 1
