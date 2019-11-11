@@ -9,11 +9,11 @@ def map(array)
 end
 
 def map(array, starting_point=0)
-  value = total
+    value = starting_point
     counter = 0
     while counter < array.size 
-    new << yield(array[counter])
+    value = yield(array[counter])
     counter += 1
   end
-  new
+  value
 end
