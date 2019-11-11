@@ -1,7 +1,7 @@
-def map
-  yield(a)
+def map(array)
+  yield
 end
 
-map(a) do |n| 
+map do |n| 
   n * -1
 end
