@@ -1,4 +1,4 @@
-def map(new_array)
+def map(a)
   array.map { |n| n * -1 }
 end
 
