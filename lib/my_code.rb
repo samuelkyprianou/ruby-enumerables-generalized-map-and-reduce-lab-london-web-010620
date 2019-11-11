@@ -9,7 +9,7 @@ def map(array)
 end
 
 def reduce(array, starting_point=nil)
-    
+    if 
     counter = 0
     while counter < array.size 
    value = yield(value, array[counter])
