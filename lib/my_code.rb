@@ -3,4 +3,5 @@ def map(a)
 end
 
 map(source_array) do |n| 
-  n * -1 
+  n * -1
+end
