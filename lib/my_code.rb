@@ -7,7 +7,3 @@ def map(array)
   end
   new
 end
-
-map do |n|
-  n * -1
-end
